@@ -67,7 +67,8 @@ PrinterWindows printer;
  
 Epson.cetak();
 Epson.cetakData();
-Console.WriteLine("Epson display dimension = " + Epson.var2);
+Console.WriteLine("Epson display dimension : " + Epson.var2);
+Console.WriteLine("Epson printer printing...);
             }
 
             else if (nomorPrinter == 2){
@@ -75,14 +76,16 @@ Console.WriteLine("Epson display dimension = " + Epson.var2);
             
 Canon.cetak();
 Canon.cetakData();
-Console.WriteLine("Canon display dimension = " + Canon.var3);
+Console.WriteLine("Canon display dimension : " + Canon.var3);
+Console.WriteLine("Canon printer printing...);
             }
             else
                {LaserJet LaserJet = new LaserJet();
  
 LaserJet.cetak();
 LaserJet.cetakData();
-Console.WriteLine("LaserJet display dimension = " + LaserJet.var4);
+Console.WriteLine("LaserJet display dimension : " + LaserJet.var4);
+Console.WriteLine("LaserJet printer printing...);
                }
 
  
